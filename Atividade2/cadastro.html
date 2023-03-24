@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <FORM ACTION="mailto:digogo@gmail.com" METHOD="POST" ENCTYPE="text/plain" NAME="cadastro">
+        <h1> NOVOS USUARIOS</h1>
+        <h3> Por favor, preencha os campos abaixo e depois clique no botão Enviar. Caso
+            necessite apagar os dados, dê um clique no botão Limpar.<br> Muito Obrigado!
+            <br><br><br>
+        </h3>
+
+        <Div class="l1">
+           <div class="pt1">
+             <label for="pnome" title="nome">NOME COMPLETO:</label>
+             <INPUT TYPE="TEXT" NAME="nome" placeholder="Digite Seu Nome"> <br>
+           </div>
+        </Div>
+
+        <div class="l2">
+            <div class="pt2">
+               <label for="cpf" title="cpf">CPF:</label>
+               <INPUT TYPE="TEXT" NAME="cpf"  placeholder="Digite Seu CPF"> <br>
+            </div>
+
+            <div class="pt3">
+               <label for="endereco" title="endereco">ENDEREÇO:</label>
+               <INPUT TYPE="TEXT" NAME="endereco"  placeholder="Digite Seu Endereço"> <br>
+            </div>
+
+            <div class="pt4">
+               NIVEL: <SELECT NAME="nivel">
+                <OPTION VALUE="casa"> Casa
+                <OPTION VALUE="ap"> Apartamento
+                <OPTION VALUE="sitio"> Sitio
+                </SELECT>
+            </div>
+        </div>
+
+        
+
+        <Div class="l3">
+            <div class="p5">
+                <label for="pmail" title="Mail">E-mail:</label>
+                <input type="text" name="e-mail"  placeholder="Digite Seu E-mail" id="pmail" >
+            </div>
+
+            <div class="pt6">
+                <label for="psenha" title="Senha">SENHA:</label>
+                <input type="password" name="senha" placeholder="Digite Sua Senha" id="psenha" >
+            </div>
+
+            <div class="pt7">
+                STATUS: <SELECT NAME="status">
+                    <OPTION VALUE="ativo"> Ativo
+                    <OPTION VALUE="inativo"> Inativo
+                </SELECT>
+            </div>
+        </Div>
+
+        OBSERVAÇÕES GERAIS:<br>
+        <TEXTAREA NAME="observacoes" placeholder="Deixe Seu Comentario" ROWS="5" COLS="60"></TEXTAREA><br>
+        <INPUT TYPE="SUBMIT" VALUE="ENVIAR">
+        <INPUT TYPE="RESET" VALUE="LIMPAR ">
+    </FORM>
+</body>
+</html>

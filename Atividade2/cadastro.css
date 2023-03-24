@@ -1,0 +1,60 @@
+body {
+    margin-top: 5%;
+    text-align: center;
+    background-image: url(img/img\ body\ cadastro.jpg);
+}
+
+
+
+.l1{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.l2{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+ .pt2{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+ }
+
+ .pt3{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+ }
+
+ .pt4{
+    width: 20%;
+    margin: 0 auto;
+    display: flex;
+ }
+
+ .l3{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+ }
+
+ .pt5{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+ }
+
+ .pt6{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+ }
+
+ .pt7{
+    width: 20%;
+    margin: 0 auto;
+    display: flex;
+ }
